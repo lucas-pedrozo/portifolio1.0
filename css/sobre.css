@@ -1,0 +1,156 @@
+/* margem do site */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* animação do scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* copo do site */
+body {
+    /*fonte do site */
+    font-family: Arial, Helvetica, sans-serif;
+    /* fundo do site */
+    background-color: #92fcff;
+background-image: linear-gradient(90deg, #cdfdff 0%, #ffffff 33%, #ffffff 66%, #bfcaff 100%);
+
+}
+
+
+
+/* config do header */
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px 40px;
+    background-color: rgb(98, 0, 179);
+    box-sizing: border-box;
+    position: fixed;
+
+}
+
+
+/* ajuste da logo */
+.conteiner .conteiner-logo img {
+    display: flex;
+    width: 60px;
+    border-radius: 5px 15px 5px 15px;
+
+    /* tempo da animação */
+    transition: 500ms;
+}
+
+
+.conteiner .conteiner-logo img:hover {
+    transform: scale(1.1);
+}
+
+ 
+.conteiner nav ul{
+    /* ajuste do texto */ 
+    display: flex;
+    margin: 20px;
+    gap: 34px;
+
+    /* style do texto */
+    list-style: none;
+}
+
+
+/* li */
+.conteiner nav ul li {
+    transition: 500ms;
+    font-weight: bold;
+
+    /* tempo da animação */
+    transition: 500ms;
+}
+
+
+.conteiner nav ul li:hover {
+    /* animação de escala */
+    transform: scale(1.15);
+}
+
+
+/* texto */
+.conteiner nav ul li a {
+text-decoration: none;
+font-size: 16px;
+color:rgba(255, 255, 255, 0.61);
+
+/* tempo da animação */
+transition: 500ms;
+}
+
+
+/* animação do texto */ 
+.conteiner  nav ul li a:hover {
+    color: white;
+}
+
+
+/* banner animado */
+.banner-animado video {
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+    /* animação de suavisão */ 
+    transition: 500ms;
+
+}
+
+
+
+
+
+
+
+footer {
+    
+    width: 100%;
+    background-color: rgb(98, 0, 179);
+    padding: 15px;
+    box-sizing: border-box;
+}
+footer h2 {
+    text-align: center;
+    color: white;
+
+    /* distancia dos icones ao texto */
+    margin-bottom: 30px;
+}
+footer .icone-center {
+    display: flex;
+    justify-content: center;
+}
+footer .icone-center a  {
+    font-size: 28px;
+    margin: 0 20px;
+    /* tempo da animação */
+    transition: 500ms;
+
+}
+footer .icone-center a:hover {
+    transform: scale(1.2);
+}
+
+
+
+.menu {
+
+    display: none;
+    
+}
+/* ativador do menu */
+
+.MT {
+
+    display: block !important;
+
+}
