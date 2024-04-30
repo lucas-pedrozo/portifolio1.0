@@ -30,6 +30,7 @@ background-image: linear-gradient(90deg, #cdfdff 0%, #ffffff 33%, #ffffff 66%, #
     background-color: rgb(98, 0, 179);
     box-sizing: border-box;
     position: fixed;
+    top: 0;
 
 }
 
