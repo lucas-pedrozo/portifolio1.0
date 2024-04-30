@@ -105,6 +105,9 @@ transition: 500ms;
     transition: 500ms;
 
 }
+.banner-mobile{
+    display: none;
+}
 .banner-mobile video {
     display: none;
     margin-top: 80px;
@@ -349,6 +352,9 @@ footer .icone-center a:hover {
 @media screen and (max-width:620px) {
     .banner-animado video {
         display: none;
+    }
+    .banner-mobile {
+        display: block;
     }
     .banner-mobile video {
         display: block;
