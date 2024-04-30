@@ -30,6 +30,7 @@ body {
     background-color: rgb(98, 0, 179);
     box-sizing: border-box;
     position: fixed;
+    top: 0  ;
 
 }
 
@@ -99,12 +100,20 @@ transition: 500ms;
     margin-top: 80px;
     width: 100%;
     margin-bottom: 150px;
-    box-sizing: border-box;
+   
     /* animação de suavisão */ 
     transition: 500ms;
 
 }
-
+.banner-mobile video {
+    display: none;
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 150px;
+   
+    /* animação de suavisão */ 
+    transition: 500ms;
+}
 
 main {
     display: block;
@@ -112,15 +121,49 @@ main {
     margin: auto;
     margin-bottom: 100px;
     padding: 10px;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    
     
 }
+/* sobre o autor */
 
-
-h1 {
+.lucaspedrozo {
     text-align: center;
     font-size: 46px;
     color: rgb(0, 163, 163);
+    margin-top: 230px;
+    margin-bottom: 200px;
+}
+.autor {
+    align-content: center;
+}
+.autor h1 {
+    font-size: 46px;
+    color: rgb(0, 163, 163);
+}
+.quem-sou {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.quem-sou img {
+    width: 500px;
+    border-radius: 20px;
+   /* tempo da animação */
+   transition: 500ms;
+}
+
+
+
+
+/* experiencia */
+
+.experiencias {
+    text-align: center;
+    font-size: 46px;
+    color: rgb(0, 163, 163);
+    margin-top: 200px;
     margin-bottom: 150px;
 }
 
@@ -233,6 +276,10 @@ footer .icone-center a:hover {
     .link .coluna img {
         width: 250px;
     }
+    
+    .quem-sou img {
+        width: 450px;
+    }
 }
 
 @media  screen and (max-width:1100px) {
@@ -243,6 +290,12 @@ footer .icone-center a:hover {
     .link .coluna img {
         width: 220px;
     }
+    .autor h1 {
+        font-size: 40px;
+    }
+    .quem-sou img {
+        width: 430px;
+    }
 }
 @media screen and (max-width:950px) {
     main {
@@ -250,6 +303,12 @@ footer .icone-center a:hover {
     }
     .link .coluna img {
         width: 192px;
+    }
+    .autor h1 {
+        font-size: 36px;
+    }
+    .quem-sou img {
+        width: 390px;
     }
     
 }
@@ -272,14 +331,39 @@ footer .icone-center a:hover {
     .link .coluna img {
         width: 300px;
     }
+    .quem-sou {
+        flex-direction: column;
+        
+    }
+    .quem-sou img {
+        margin: auto;
+        width: 450px;
+        margin-bottom: 20px;
+       
+    }
+    .quem-sou h1 {
+        text-align: center;
+    }
     
 }
 @media screen and (max-width:620px) {
     .banner-animado video {
-        margin-top: 150px;
-        border-radius: 10px;
+        display: none;
     }
+    .banner-mobile video {
+        display: block;
+        margin-top: 180px;
+    }
+    .quem-sou img {
+        margin: auto;
+        width: 400px;
+        margin-bottom: 20px;
+       
+    
+ 
 }
+}
+
 @media screen and (max-width:430px) {
 
     .conteiner {
@@ -316,25 +400,52 @@ footer .icone-center a:hover {
     .banner-animado video {
         width: 100%;
     }
+    .lucaspedrozo {
+        font-size: 32px;
+    }
     h1 {
         font-size: 36px;
     }
+    .quem-sou img {
+        margin: auto;
+        width: 380px;
+        margin-bottom: 20px;
 
 }
-
-@media screen and (max-width:361px) {
+.experiencias {
+    font-size: 32px;
+}
+}
+@media screen and (max-width:370px) {
+    .quem-sou img {
+        margin: auto;
+        width: 330px;
+        margin-bottom: 20px;
+}
+}
+@media screen and (max-width:360px) {
 
     
     .link .coluna img {
         width: 270px;
     }
+    .quem-sou img {
+        margin: auto;
+        width: 315px;
+        margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width:321px) {
 
-    
+
     .link .coluna img {
         width: 240px;
     }
+    .quem-sou img {
+        margin: auto;
+        width: 280px;
+        margin-bottom: 20px;
 }
 
+}
