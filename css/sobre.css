@@ -312,5 +312,8 @@ footer .icone-center a:hover {
      .banner .texto h2 {
      font-size: 42px;
      }
+     .autor img {
+        width: 310px;
+     }
     
 }
