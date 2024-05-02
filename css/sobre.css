@@ -343,7 +343,7 @@ footer .icone-center a:hover {
 
 @media screen and (max-width:360px) {
     /* ajuste do banner em texto */
-    .banner .texto {
+    .banner .texto { 
         align-content: normal;
         padding-top: 150px;
      }
@@ -352,6 +352,7 @@ footer .icone-center a:hover {
      }
      .autor img {
         width: 310px;
+        
      }
      .projetos .video1 {
         width: 340px;
