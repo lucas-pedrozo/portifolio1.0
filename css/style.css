@@ -30,7 +30,7 @@ body {
     background-color: rgb(98, 0, 179);
     box-sizing: border-box;
     position: fixed;
-    top: 0  ;
+    top: 0;
 
 }
 
@@ -39,7 +39,7 @@ body {
 .conteiner .conteiner-logo img {
     display: flex;
     width: 60px;
-    border-radius: 5px 15px 5px 15px;
+    border-radius: 5px 20px 5px 20px;
 
     /* tempo da animação */
     transition: 500ms;
@@ -134,7 +134,7 @@ h1{
     text-align: center;
     font-size: 46px;
     color: rgb(0, 163, 163);
-    margin-top: 230px;
+    margin-top: 200px;
     margin-bottom: 350px;
 }
 .autor {
@@ -151,7 +151,7 @@ h1{
 
 }
 .quem-sou img {
-    width: 500px;
+    width: 450px;
     border-radius: 20px;
    /* tempo da animação */
    transition: 500ms;
@@ -162,11 +162,11 @@ h1{
 
 /* experiencia */
 
-.experiencias {
+.formacoes{
     text-align: center;
     font-size: 46px;
     color: rgb(0, 196, 196);
-    margin-top: 250 px;
+    margin-top: 250px;
     margin-bottom: 200px;
 }
 
@@ -177,10 +177,11 @@ h1{
 }
 .coluna {
     text-align: center;   
+    margin-bottom: 80px;
 }
 
 .coluna h3 {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .link .coluna img {
@@ -200,16 +201,21 @@ h1{
     box-shadow: 0 0 20px rgb(0, 183, 255);
 }
 
-.coluna a {
+.botao-sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-sobre a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     background-color: #8197ff;
     background-image: linear-gradient(71deg, #8197ff 0%, #ff33f4 100%);    
-    padding: 10px;
-    border-radius: 20px;    
-    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 30px;    
+    margin-bottom: 60px;
 }
 
 .link .animation {
@@ -384,17 +390,18 @@ footer .icone-center a:hover {
          /* ajuste do menu */
          color: white;
          font-size: 30px;
-         margin-top: 10px;
+         margin-top: 15px;
     }
 
      .conteiner nav {
         display: none;
-        text-align: center;     
+        text-align:end;     
         transition: 1s;
      }
     
     .conteiner nav ul {
         display: block;
+        margin: 0;
     }
     .conteiner nav ul li {
        margin-top: 12px;
@@ -424,7 +431,7 @@ footer .icone-center a:hover {
     .autor h2 {
         font-size: 36px;
     }
-    .experiencias {
+    .formacoes {
         font-size: 32px;
     }
     .coluna a {
