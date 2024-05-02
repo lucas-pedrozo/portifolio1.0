@@ -17,7 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* fundo do site */
     background-color: #92fcff;
-background-image: linear-gradient(90deg, #cdfdff 0%, #ffffff 33%, #ffffff 66%, #bfcaff 100%);
+background-image: linear-gradient(90deg, #cdfdff 0%, #f5f5f5 33%, #f5f5f5    66%, #bfcaff 100%);
 
 }
 
@@ -176,17 +176,50 @@ main{
 }
 
 .grid .flex .sobre  {
-    padding: 40px 30px;
+    margin: 30px 20px;
     width: 300px;
     height: auto;
     gap: 5px;
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
 
 .grid .flex .sobre i {
     font-size: 40px;
+    color: #131f57;
+    padding-bottom: 5px;
+    
 }
+.grid .flex .sobre h3 {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+/* projetos */
+.projetos {
+  text-align: center;
+}
+/* texto */
+.projetos .projetos-motion {
+    margin: 120px 0 150px 0;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(0, 153, 145);    
+}
+/* videos projeto 1 */  
+.projetos .video1 {
+    margin: auto;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+  
+}
+
+
 
 footer {
     
@@ -299,6 +332,11 @@ footer .icone-center a:hover {
     }
     .autor .grid .flex .sobre {
         margin: auto;
+        margin-top: 50px;
+    }
+    /* projetos */
+    .projetos .video1 {
+        width: 400px;
     }
 
 }
