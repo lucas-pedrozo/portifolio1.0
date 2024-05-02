@@ -314,7 +314,8 @@ footer .icone-center a:hover {
        padding-top: 180px;
     }
     .banner .texto h2 {
-    font-size: 48px;
+    font-size: 42px;
+    
     }
     main {
         width: 100%;
@@ -325,7 +326,7 @@ footer .icone-center a:hover {
         text-align: center;
     }
     .autor img {
-
+        width: 90%;
     }
     .autor .grid .flex {
         display: block;
@@ -333,13 +334,15 @@ footer .icone-center a:hover {
     .autor .grid .flex .sobre {
         margin: auto;
         margin-top: 50px;
+        width: 90%;
     }
     /* projetos */
     .projetos .video1 {
-        width: 400px;
+        width: 98%;
     }
 
 }
+
 
 @media screen and (max-width:360px) {
     /* ajuste do banner em texto */
@@ -348,14 +351,15 @@ footer .icone-center a:hover {
         padding-top: 150px;
      }
      .banner .texto h2 {
-     font-size: 42px;
+        font-size:38px;
      }
-     .autor img {
-        width: 310px;
-        
-     }
-     .projetos .video1 {
-        width: 340px;
-     }
-    
+
+}
+@media screen and (max-width:290px) {
+    .banner {
+        min-height: 600px;
+    }
+    .banner .texto h2 {
+        font-size: 32px;
+    }
 }

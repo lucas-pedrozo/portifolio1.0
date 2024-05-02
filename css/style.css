@@ -331,7 +331,7 @@ footer .icone-center a:hover {
     }
     .quem-sou img {
         margin: auto;
-        width: px;
+        width: 50%;
         margin-bottom: 20px;
        
     }
@@ -424,7 +424,7 @@ footer .icone-center a:hover {
     /*block quem sou */
     .quem-sou img {
         margin: auto;
-        width: 380px;
+        width: 90%;
         margin-bottom: 20px;
 
     }
@@ -437,38 +437,7 @@ footer .icone-center a:hover {
     .coluna a {
         font-size: 20px;
     }
-}
-@media screen and (max-width:370px) {
-
-    .quem-sou img {
-        margin: auto;
-        width: 330px;
-        margin-bottom: 20px;
-    }
-
-}
-
-@media screen and (max-width:360px) {
-
-    .quem-sou img {
-        margin: auto;
-        width: 315px;
-        margin-bottom: 20px;
-    }
     .link .coluna img {
-        width: 270px;
+        width: 90%;
     }
-}
-
-@media screen and (max-width:321px) {
-
-    .quem-sou img {
-        margin: auto;
-        width: 280px;
-        margin-bottom: 20px;
-    }
-    .link .coluna img {
-        width: 240px;
-    }
-
 }
