@@ -116,6 +116,7 @@ transition: 500ms;
 .banner .img img {
     width: 380px;
     border-radius: 15px;
+    transition: 500ms;
 
 }
 .banner .texto {
@@ -125,6 +126,7 @@ transition: 500ms;
 .banner .texto h1 {
     color: white;
     display: none;
+    transition: 500ms;
 }
 .banner .texto h2{
     text-align: start;
@@ -132,16 +134,18 @@ transition: 500ms;
     
     color: white;
     font-size: 64px;
+    transition: 500ms;
 }
 .banner .texto span {
     color: rgb(241, 241, 0);
+     transition: 500ms;
 }
 
 
 
 
 main{
-    width: 1000px;
+    width: 1150px;
     margin: auto;
     margin-top: 250px;
     margin-bottom: 100px;
@@ -152,7 +156,7 @@ main{
     text-align: center;
     font-size: 36px;
     color: rgb(0, 153, 145); 
-    
+    transition: 500ms;
 }
 
 
@@ -160,6 +164,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 0 30px;
+    transition: 500ms;
 }
 .botao a {
     text-decoration: none;
@@ -215,6 +220,7 @@ main{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    transition: 500ms;
 }
 
 
@@ -228,6 +234,7 @@ main{
 .grid .flex .sobre h3 {
     padding-bottom: 5px;
     font-weight: bold;
+    transition: 500ms;
 }
 
 /* projetos */
@@ -239,7 +246,8 @@ main{
     margin: 200px 0;
     text-align: center;
     font-size: 36px;
-    color: rgb(0, 153, 145);    
+    color: rgb(0, 153, 145);
+    transition: 500ms;    
 }
 /* videos projeto 1 */  
 .projetos .video1 {
@@ -248,12 +256,14 @@ main{
     margin-bottom: 160px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+    transition: 500ms;
   
 }
 .projetos-videos {
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
+    transition: 500ms;
     
 }
 .projetos-videos .motions {
@@ -261,6 +271,7 @@ main{
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
     margin: 0 20px;
+    transition: 500ms;
         
 }
 
@@ -308,7 +319,204 @@ footer .icone-center a:hover {
     display: block !important;
 
 }
+@media screen and (max-width:1240px) {
+    main {
+        width: 900px;
+    }
+    .banner .img img {
+        width: 320px;
+    }
+     .banner .texto h2 {
+     font-size: 50px;
 
+    }  
+    .autor img {
+        width: 300px;
+        border-radius: 20px;
+        padding: 8px;
+        transition: 500ms;
+    }
+    
+    .grid .flex .sobre  {
+        margin: 30px 20px;
+        width: 200px;
+        height: auto;
+        gap: 4px;
+        
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    
+    
+    .grid .flex .sobre i {
+        font-size: 26px;
+        color: #131f57;
+        padding-bottom: 5px;
+        
+    }
+
+    /* videos projeto 1 */  
+.projetos .video1 {
+    margin: auto;
+    width: 620px;
+    margin-bottom: 160px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+  
+}
+.projetos-videos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}
+.projetos-videos .motions {
+    width: 240px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+    margin: 0 20px;
+        
+}
+
+}
+
+@media screen and (max-width:960px) {
+    main {
+        width: 700px;
+    }
+    .banner .img img {
+        width: 320px;
+    }
+     .banner .texto h2 {
+     font-size: 50px;
+
+    }  
+ 
+    .autor img {
+        width: 300px;
+        border-radius: 20px;
+        padding: 8px;
+        transition: 500ms;
+    }
+    
+    .grid .flex .sobre  {
+        margin: 30px 20px;
+        width: 200px;
+        height: auto;
+        gap: 4px;
+        
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .autor {
+        display: block;
+        text-align: center;
+    }
+    .autor img {
+        width: 400px;
+    }
+    .autor .grid .flex {
+        display: block;
+    }
+    .autor .grid .flex .sobre {
+        margin: auto;
+        margin-top: 50px;
+        width: 55%;
+    }
+    
+    
+    
+    .grid .flex .sobre i {
+        font-size: 26px;
+        color: #131f57;
+        padding-bottom: 5px;
+        
+    }
+
+     /* videos projeto 1 */  
+    .projetos .video1 {
+        margin: auto;
+        width: 520px;
+        margin-bottom: 160px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+    
+    }
+    .projetos-videos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 120px;
+        
+    }
+    .projetos-videos .motions {
+        width: 180px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+        margin: 0 20px;
+            
+    }
+}
+@media screen and (max-width:840px) {
+    .banner .img img {
+        width: 250px;
+    }
+     .banner .texto h2 {
+     font-size: 40px;
+
+    }  
+}
+@media screen and (max-width:730px) {
+    main {
+        width: 500px;
+    }
+    .banner .img img {
+        width: 220px;
+    }
+     .banner .texto h2 {
+     font-size: 30px;
+
+    }  
+         /* videos projeto 1 */  
+         .projetos .video1 {
+            margin: auto;
+            width: 400px;
+            margin-bottom: 160px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
+        
+        }
+        .projetos-videos {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+        .projetos-videos .motions {
+            margin: 50px auto;
+            width: 60%;
+        }
+    .botao {
+        flex-direction: column;
+    }
+    .botao a {
+        width: 40%;
+        margin: 40px auto;
+    }
+}
+@media screen and (max-width:530px) {
+    main {
+        width: 100%;
+    }.banner img{
+        display: none;
+    }
+    .banner .texto h2 {
+        font-size: 50px;
+    }
+    .botao a {
+        font-size: 18px;
+    }
+}
 
 @media screen and (max-width:430px) {
     /* header */
@@ -326,6 +534,9 @@ footer .icone-center a:hover {
          color: white;
          font-size: 30px;
          margin-top: 15px;
+    }
+    .botao a {
+        font-size: 14px;
     }
 
      .conteiner nav {
@@ -407,6 +618,7 @@ footer .icone-center a:hover {
 
 
 @media screen and (max-width:360px) {
+
     /* ajuste do banner em texto */
     .banner .texto { 
         align-content: normal;
@@ -417,10 +629,12 @@ footer .icone-center a:hover {
      }
 
 }
+
 @media screen and (max-width:290px) {
     .banner {
         min-height: 600px;
     }
+
     .banner .texto h2 {
         font-size: 32px;
     }
