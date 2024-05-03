@@ -245,7 +245,7 @@ main{
 .projetos .video1 {
     margin: auto;
     width: 800px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 99, 99, 0.534);
   
@@ -253,7 +253,7 @@ main{
 .projetos-videos {
     display: flex;
     justify-content: center;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     
 }
 .projetos-videos .motions {
