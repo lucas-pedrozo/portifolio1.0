@@ -276,6 +276,51 @@ main{
 }
 
 
+
+.projetos .img {
+    margin: auto;
+    width: 800px;
+    margin-bottom: 160px;
+    border-radius: 15px;
+    transition: 500ms;
+  
+}
+.projetos-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    transition: 500ms;
+    
+}
+.projetos-img .img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: 500ms;
+        
+}
+.site {
+    display: flex;
+    justify-content: center;
+}
+.site a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    
+    background-color: #4896c5;
+    background-image: linear-gradient(79deg, #4896c5 0%, #60d4c8 100%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;    
+    margin-bottom: 60px;
+    
+    transition: 500ms;
+}
+
+
+
 footer {
     
     width: 100%;
@@ -379,6 +424,26 @@ footer .icone-center a:hover {
     margin: 0 20px;
         
 }
+.projetos .img {
+    margin: auto;
+    width: 620px;
+    margin-bottom: 160px;
+    border-radius: 15px;
+  
+}
+.projetos-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}
+.projetos-videos .img {
+    width: 240px;
+    border-radius: 10px;
+    margin: 0 20px;
+        
+}
+
 
 }
 
@@ -458,6 +523,26 @@ footer .icone-center a:hover {
         margin: 0 20px;
             
     }
+    .projetos .img {
+        margin: auto;
+        width: 520px;
+        margin-bottom: 160px;
+        border-radius: 15px;
+     
+    
+    }
+    .projetos-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 120px;
+        
+    }
+    .projetos-videos .img{
+        width: 180px;
+        border-radius: 10px;
+        margin: 0 20px;
+            
+    }
 }
 @media screen and (max-width:840px) {
     .banner .img img {
@@ -493,6 +578,21 @@ footer .icone-center a:hover {
             margin-bottom: 30px;
         }
         .projetos-videos .motions {
+            margin: 50px auto;
+            width: 60%;
+        }
+        .projetos .img {
+            margin: auto;
+            width: 400px;
+            margin-bottom: 160px;
+            border-radius: 15px;
+        
+        }
+        .projetos-img {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+        .projetos-videos .img {
             margin: 50px auto;
             width: 60%;
         }
@@ -610,6 +710,17 @@ footer .icone-center a:hover {
         margin-bottom: 30px;
     }
     .projetos-videos .motions {
+        margin: 50px auto;
+        width: 80%;
+    }
+    .projetos .img {
+        width: 98%;
+    }
+    .projetos-img {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .projetos-videos .img {
         margin: 50px auto;
         width: 80%;
     }
