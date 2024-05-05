@@ -151,7 +151,7 @@ h1{
 
 }
 .quem-sou img {
-    width: 450px;
+    width: 400px;
     border-radius: 20px;
    /* tempo da animação */
    transition: 500ms;
@@ -284,7 +284,7 @@ footer .icone-center a:hover {
     }
     
     .quem-sou img {
-        width: 450px;
+        width: 380px;
     }
 }
 
@@ -300,7 +300,7 @@ footer .icone-center a:hover {
         font-size: 40px;
     }
     .quem-sou img {
-        width: 430px;
+        width: 360px;
     }
 }
 @media screen and (max-width:950px) {
@@ -314,7 +314,7 @@ footer .icone-center a:hover {
         font-size: 36px;
     }
     .quem-sou img {
-        width: 390px;
+        width: 350px;
     }
     
 }
