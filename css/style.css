@@ -11,7 +11,7 @@ html {
 /* copo do site */
 body {
     /*fonte do site */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat",  "Arial, Helvetica, sans-serif";
     /* fundo do site */
     background-color: #d4f7ff;
     background-image: linear-gradient(90deg, #d4f7ff 0%, #ffffff 37%, #ffffff 64%, #f6e3ff 100%);
@@ -38,7 +38,7 @@ body {
 /* ajuste da logo */
 .conteiner .conteiner-logo img {
     display: flex;
-    width: 60px;
+    width: 50px;
     border-radius: 5px 20px 5px 20px;
 
     /* tempo da animação */
@@ -50,13 +50,16 @@ body {
     transform: scale(1.1);
 }
 
+.conteiner nav {
+    justify-items: center;
+}  
+
  
 .conteiner nav ul{
     /* ajuste do texto */ 
     display: flex;
-    margin: 20px;
+    margin: 15px 0;
     gap: 34px;
-
     /* style do texto */
     list-style: none;
 }
@@ -204,6 +207,12 @@ h1{
 .botao-sobre {
     display: flex;
     justify-content: center;
+    
+    /* tempo da animação */
+    transition: 500ms;
+}
+.botao-sobre:hover {
+    transform: scale(1.1);
 }
 
 .botao-sobre a {
@@ -253,7 +262,7 @@ footer .icone-center a:hover {
 }
 
 
-
+/* js do navbar */
 .menu {
 
     display: none;
@@ -403,11 +412,16 @@ footer .icone-center a:hover {
         display: block;
         margin: 0;
     }
+
     .conteiner nav ul li {
        margin-top: 12px;
     }
+    .conteiner nav ul li:hover {
+        transform: scale(1);
+    }
     .conteiner nav ul li a {
         font-size: 18px;
+        color: white;
     }
     /* final header */
 
