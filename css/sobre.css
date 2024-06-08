@@ -147,11 +147,14 @@ transition: 500ms;
 
 
 main{
-    width: 1150px;
     margin: auto;
     margin-top: 250px;
     margin-bottom: 100px;
  
+}
+.main { 
+    width: 1150px;
+    margin: auto;
 }
 .Experiencias {
     margin: 120px 0 200px 0;
@@ -605,9 +608,10 @@ footer .icone-center a:hover {
     }
 }
 @media screen and (max-width:530px) {
-    main {
+    .main{
         width: 100%;
-    }.banner img{
+    }
+    .banner img{
         display: none;
     }
     .banner .texto h2 {
